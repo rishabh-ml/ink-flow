@@ -248,11 +248,11 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
                   We believe great ideas can come from anywhere, and the best work happens when people can freely express and
-                  build upon each other's thinking. InkFlow removes the barriers between team members, allowing creativity
+                  build upon each other&#39;s thinking. InkFlow removes the barriers between team members, allowing creativity
                   and innovation to flow naturally.
                 </p>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Whether you're planning a project, teaching a concept, or brainstorming your next big idea,
+                  Whether you&#39;re planning a project, teaching a concept, or brainstorming your next big idea,
                   InkFlow provides the flexible, intuitive space you need to bring your thoughts to life.
                 </p>
               </motion.div>
