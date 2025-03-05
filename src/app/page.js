@@ -111,12 +111,19 @@ export default function Home() {
           <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <div className="flex items-center">
               <motion.div
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5 }}
-                  className="text-2xl font-bold"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }}
+                className="flex items-center space-x-2"
               >
-                InkFlow
+                <Image
+                  src="/icon.png"
+                  alt="InkFlow Logo"
+                  width={32}
+                  height={32}
+                  className="rounded-md"
+                />
+                <span className="text-2xl font-bold">InkFlow</span>
               </motion.div>
             </div>
 
